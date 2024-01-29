@@ -1,0 +1,75 @@
+.logo img{
+    width: 10%;
+    margin-top: 2%;
+    margin-left: 45%;
+    }
+    .nav-item {
+        margin-top: -3%;
+        font-size: 15px;
+        margin-left: 2%;
+        
+    }
+    .nav-item a{
+        color: red;
+    }
+    .d h1{
+        display: flex;
+        justify-content: center;
+        text-decoration:underline;
+        color: goldenrod;
+        font-family: 'Comfortaa', sans-serif;
+        text-transform: lowercase;
+        
+    }
+    .kl p{
+        width: 35%;
+        display: flex;
+        margin-left: 34%;
+        font-weight: bold;
+        transition: color 0.3s ease-in-out;
+    }
+    .kl p:hover {
+        color:red; 
+      }
+      .image-container {
+        position: relative;
+        overflow: hidden;
+        margin: 35px;
+      }
+  
+      .image-container img {
+        width: 70%;
+        border-radius: 25px;
+        height: auto;
+        transition: transform 0.3s ease-in-out;
+        margin-left: 18%;
+      }
+  
+      .image-container:hover img {
+        transform: scale(1.1); 
+      }
+      @media(max-width:1000px){
+        .logo img {
+          width: 10%;
+          margin-top: 2%;
+          margin-left: 64%;
+      }
+      }
+      @media(max-width:700px){
+        .logo img {
+          width: 9%;
+          margin-top: 3%;
+          margin-left: 81%;
+      }
+      }
+      @media(max-width:500px){
+        .kl p {
+          width: 35%;
+          font-size: 10px;
+          display: flex;
+          margin-left: 34%;
+          font-weight: bold;
+          transition: color 0.3s ease-in-out;
+      }
+      }
+  
